@@ -5,7 +5,7 @@ export default function FancyCard() {
   return (
     <View>
       <Text style={styles.headingText}>Trending Places</Text>
-      <View style={[styles.card,styles.cardElevated]}>
+      <View style={[styles.card,styles.cardElevated,styles.centerContainer]}>
         <Image source={{
             uri: 'https://2.bp.blogspot.com/-Mk2cFsdU7w4/ToAfNRsqH1I/AAAAAAAABi8/DxEdS7JuLSA/s1600/most+beautiful+place+in+the+world-1.jpg'
         }}
@@ -23,6 +23,10 @@ export default function FancyCard() {
 }
 
 const styles = StyleSheet.create({
+    centerContainer:{
+        justifyContent:'center',
+        alignSelf: 'center'
+    },
     headingText:{
         fontSize:24,
         fontWeight: 'bold',
