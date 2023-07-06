@@ -1,0 +1,12 @@
+Components Needed
+-----------------------------------------------------
+1.Login Page
+    1.1 Form Component
+    1.2 Forgot Password
+2.Home Page
+    2.1 HomeDock Component
+    2.2 Navigationbar Component
+        2.2.1 Logout Option
+    2.3 Category Selector Component
+    2.4 Add Banner Component
+3.Logout Page
